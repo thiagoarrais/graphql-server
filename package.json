@@ -4,7 +4,7 @@
   "description": "A simple GraphQL server",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./server.js --exec babel-node -e js",
+    "start": "babel-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
     "express": "^4.15.2",
     "graphql": "^0.10.1",
     "graphql-server-core": "^0.8.2",

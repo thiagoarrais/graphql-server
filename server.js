@@ -8,16 +8,13 @@ import {
   graphiqlExpress,
 } from 'graphql-server-express';
 import bodyParser from 'body-parser';
-import cors from 'cors';
 
 import { schema } from './src/schema';
 
-const PORT = 4000;
+const PORT = process.env.PORT;
 const server = express();
 
 const ws = createServer(server);
-
-server.use('*', cors({ origin: 'http://localhost:3000' }));
 
 server.use('/graphql', bodyParser.json(), graphqlExpress({
   schema
@@ -25,7 +22,7 @@ server.use('/graphql', bodyParser.json(), graphqlExpress({
 
 server.use('/graphiql', graphiqlExpress({
   endpointURL: '/graphql',
-  subscriptionsEndpoint: `ws://localhost:4000/subscriptions`
+  subscriptionsEndpoint: `wss:/swanky-arm.glitch.me/subscriptions`
 }));
 
 ws.listen(PORT, () => {

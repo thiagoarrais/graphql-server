@@ -1,0 +1,1100 @@
+{
+  "{\"filename\":\"/app/server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[{\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]]},{\"presets\":[{\"presets\":[{\"presets\":[{\"plugins\":[null,null,null,null,null]}],\"plugins\":[null,null,null]}],\"plugins\":[null,null]}],\"plugins\":[[[],null],[[],null]]}],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":true,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "graphql",
+            "imported": [
+              "execute",
+              "subscribe"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "execute",
+                "local": "execute"
+              },
+              {
+                "kind": "named",
+                "imported": "subscribe",
+                "local": "subscribe"
+              }
+            ]
+          },
+          {
+            "source": "http",
+            "imported": [
+              "createServer"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "createServer",
+                "local": "createServer"
+              }
+            ]
+          },
+          {
+            "source": "subscriptions-transport-ws",
+            "imported": [
+              "SubscriptionServer"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "SubscriptionServer",
+                "local": "SubscriptionServer"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "graphql-server-express",
+            "imported": [
+              "graphqlExpress",
+              "graphiqlExpress"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "graphqlExpress",
+                "local": "graphqlExpress"
+              },
+              {
+                "kind": "named",
+                "imported": "graphiqlExpress",
+                "local": "graphiqlExpress"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "./src/schema",
+            "imported": [
+              "schema"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "schema",
+                "local": "schema"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [
+        {
+          "plugins": [
+            [
+              [],
+              {
+                "loose": false,
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "async": false,
+                "asyncGenerators": false
+              }
+            ]
+          ]
+        },
+        {
+          "presets": [
+            {
+              "presets": [
+                {
+                  "presets": [
+                    {
+                      "plugins": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                      ]
+                    }
+                  ],
+                  "plugins": [
+                    null,
+                    null,
+                    null
+                  ]
+                }
+              ],
+              "plugins": [
+                null,
+                null
+              ]
+            }
+          ],
+          "plugins": [
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ]
+          ]
+        }
+      ],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": true,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _graphql = require('graphql');\n\nvar _http = require('http');\n\nvar _subscriptionsTransportWs = require('subscriptions-transport-ws');\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _graphqlServerExpress = require('graphql-server-express');\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _schema = require('./src/schema');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PORT = process.env.PORT;\nvar server = (0, _express2.default)();\n\nvar ws = (0, _http.createServer)(server);\n\nserver.use('/graphql', _bodyParser2.default.json(), (0, _graphqlServerExpress.graphqlExpress)({\n  schema: _schema.schema\n}));\n\nserver.use('/graphiql', (0, _graphqlServerExpress.graphiqlExpress)({\n  endpointURL: '/graphql',\n  subscriptionsEndpoint: 'wss:/swanky-arm.glitch.me/subscriptions'\n}));\n\nws.listen(PORT, function () {\n  console.log('GraphQL Server is now running on http://localhost:' + PORT);\n  // Set up the WebSocket for handling GraphQL subscriptions\n  new _subscriptionsTransportWs.SubscriptionServer({\n    execute: _graphql.execute,\n    subscribe: _graphql.subscribe,\n    schema: _schema.schema\n  }, {\n    server: ws,\n    path: '/subscriptions'\n  });\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJQT1JUIiwicHJvY2VzcyIsImVudiIsInNlcnZlciIsIndzIiwidXNlIiwiYm9keVBhcnNlciIsImpzb24iLCJzY2hlbWEiLCJlbmRwb2ludFVSTCIsInN1YnNjcmlwdGlvbnNFbmRwb2ludCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciLCJTdWJzY3JpcHRpb25TZXJ2ZXIiLCJleGVjdXRlIiwic3Vic2NyaWJlIiwicGF0aCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFDQTs7QUFFQTs7OztBQUNBOztBQUlBOzs7O0FBRUE7Ozs7QUFFQSxJQUFNQSxPQUFPQyxRQUFRQyxHQUFSLENBQVlGLElBQXpCO0FBQ0EsSUFBTUcsU0FBUyx3QkFBZjs7QUFFQSxJQUFNQyxLQUFLLHdCQUFhRCxNQUFiLENBQVg7O0FBRUFBLE9BQU9FLEdBQVAsQ0FBVyxVQUFYLEVBQXVCQyxxQkFBV0MsSUFBWCxFQUF2QixFQUEwQywwQ0FBZTtBQUN2REM7QUFEdUQsQ0FBZixDQUExQzs7QUFJQUwsT0FBT0UsR0FBUCxDQUFXLFdBQVgsRUFBd0IsMkNBQWdCO0FBQ3RDSSxlQUFhLFVBRHlCO0FBRXRDQztBQUZzQyxDQUFoQixDQUF4Qjs7QUFLQU4sR0FBR08sTUFBSCxDQUFVWCxJQUFWLEVBQWdCLFlBQU07QUFDcEJZLFVBQVFDLEdBQVIsd0RBQWlFYixJQUFqRTtBQUNBO0FBQ0EsTUFBSWMsNENBQUosQ0FBdUI7QUFDckJDLDZCQURxQjtBQUVyQkMsaUNBRnFCO0FBR3JCUjtBQUhxQixHQUF2QixFQUlHO0FBQ0RMLFlBQVFDLEVBRFA7QUFFRGEsVUFBTTtBQUZMLEdBSkg7QUFRRCxDQVhEIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZXhlY3V0ZSwgc3Vic2NyaWJlIH0gZnJvbSAnZ3JhcGhxbCc7XG5pbXBvcnQgeyBjcmVhdGVTZXJ2ZXIgfSBmcm9tICdodHRwJztcbmltcG9ydCB7IFN1YnNjcmlwdGlvblNlcnZlciB9IGZyb20gJ3N1YnNjcmlwdGlvbnMtdHJhbnNwb3J0LXdzJztcblxuaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQge1xuICBncmFwaHFsRXhwcmVzcyxcbiAgZ3JhcGhpcWxFeHByZXNzLFxufSBmcm9tICdncmFwaHFsLXNlcnZlci1leHByZXNzJztcbmltcG9ydCBib2R5UGFyc2VyIGZyb20gJ2JvZHktcGFyc2VyJztcblxuaW1wb3J0IHsgc2NoZW1hIH0gZnJvbSAnLi9zcmMvc2NoZW1hJztcblxuY29uc3QgUE9SVCA9IHByb2Nlc3MuZW52LlBPUlQ7XG5jb25zdCBzZXJ2ZXIgPSBleHByZXNzKCk7XG5cbmNvbnN0IHdzID0gY3JlYXRlU2VydmVyKHNlcnZlcik7XG5cbnNlcnZlci51c2UoJy9ncmFwaHFsJywgYm9keVBhcnNlci5qc29uKCksIGdyYXBocWxFeHByZXNzKHtcbiAgc2NoZW1hXG59KSk7XG5cbnNlcnZlci51c2UoJy9ncmFwaGlxbCcsIGdyYXBoaXFsRXhwcmVzcyh7XG4gIGVuZHBvaW50VVJMOiAnL2dyYXBocWwnLFxuICBzdWJzY3JpcHRpb25zRW5kcG9pbnQ6IGB3c3M6L3N3YW5reS1hcm0uZ2xpdGNoLm1lL3N1YnNjcmlwdGlvbnNgXG59KSk7XG5cbndzLmxpc3RlbihQT1JULCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGBHcmFwaFFMIFNlcnZlciBpcyBub3cgcnVubmluZyBvbiBodHRwOi8vbG9jYWxob3N0OiR7UE9SVH1gKTtcbiAgLy8gU2V0IHVwIHRoZSBXZWJTb2NrZXQgZm9yIGhhbmRsaW5nIEdyYXBoUUwgc3Vic2NyaXB0aW9uc1xuICBuZXcgU3Vic2NyaXB0aW9uU2VydmVyKHtcbiAgICBleGVjdXRlLFxuICAgIHN1YnNjcmliZSxcbiAgICBzY2hlbWFcbiAgfSwge1xuICAgIHNlcnZlcjogd3MsXG4gICAgcGF0aDogJy9zdWJzY3JpcHRpb25zJyxcbiAgfSk7XG59KTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "PORT",
+        "process",
+        "env",
+        "server",
+        "ws",
+        "use",
+        "bodyParser",
+        "json",
+        "schema",
+        "endpointURL",
+        "subscriptionsEndpoint",
+        "listen",
+        "console",
+        "log",
+        "SubscriptionServer",
+        "execute",
+        "subscribe",
+        "path"
+      ],
+      "mappings": ";;AAAA;;AACA;;AACA;;AAEA;;;;AACA;;AAIA;;;;AAEA;;;;AAEA,IAAMA,OAAOC,QAAQC,GAAR,CAAYF,IAAzB;AACA,IAAMG,SAAS,wBAAf;;AAEA,IAAMC,KAAK,wBAAaD,MAAb,CAAX;;AAEAA,OAAOE,GAAP,CAAW,UAAX,EAAuBC,qBAAWC,IAAX,EAAvB,EAA0C,0CAAe;AACvDC;AADuD,CAAf,CAA1C;;AAIAL,OAAOE,GAAP,CAAW,WAAX,EAAwB,2CAAgB;AACtCI,eAAa,UADyB;AAEtCC;AAFsC,CAAhB,CAAxB;;AAKAN,GAAGO,MAAH,CAAUX,IAAV,EAAgB,YAAM;AACpBY,UAAQC,GAAR,wDAAiEb,IAAjE;AACA;AACA,MAAIc,4CAAJ,CAAuB;AACrBC,6BADqB;AAErBC,iCAFqB;AAGrBR;AAHqB,GAAvB,EAIG;AACDL,YAAQC,EADP;AAEDa,UAAM;AAFL,GAJH;AAQD,CAXD",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import { execute, subscribe } from 'graphql';\nimport { createServer } from 'http';\nimport { SubscriptionServer } from 'subscriptions-transport-ws';\n\nimport express from 'express';\nimport {\n  graphqlExpress,\n  graphiqlExpress,\n} from 'graphql-server-express';\nimport bodyParser from 'body-parser';\n\nimport { schema } from './src/schema';\n\nconst PORT = process.env.PORT;\nconst server = express();\n\nconst ws = createServer(server);\n\nserver.use('/graphql', bodyParser.json(), graphqlExpress({\n  schema\n}));\n\nserver.use('/graphiql', graphiqlExpress({\n  endpointURL: '/graphql',\n  subscriptionsEndpoint: `wss:/swanky-arm.glitch.me/subscriptions`\n}));\n\nws.listen(PORT, () => {\n  console.log(`GraphQL Server is now running on http://localhost:${PORT}`);\n  // Set up the WebSocket for handling GraphQL subscriptions\n  new SubscriptionServer({\n    execute,\n    subscribe,\n    schema\n  }, {\n    server: ws,\n    path: '/subscriptions',\n  });\n});\n"
+      ]
+    },
+    "mtime": 1529100205256
+  },
+  "{\"filename\":\"/app/src/schema.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[{\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]]},{\"presets\":[{\"presets\":[{\"presets\":[{\"plugins\":[null,null,null,null,null]}],\"plugins\":[null,null,null]}],\"plugins\":[null,null]}],\"plugins\":[[[],null],[[],null]]}],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":true,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "graphql-tools",
+            "imported": [
+              "makeExecutableSchema",
+              "addMockFunctionsToSchema"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "makeExecutableSchema",
+                "local": "makeExecutableSchema"
+              },
+              {
+                "kind": "named",
+                "imported": "addMockFunctionsToSchema",
+                "local": "addMockFunctionsToSchema"
+              }
+            ]
+          },
+          {
+            "source": "./resolvers",
+            "imported": [
+              "resolvers"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "resolvers",
+                "local": "resolvers"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "schema"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "schema",
+              "exported": "schema"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/schema.js",
+      "filenameRelative": "/app/src/schema.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [
+        {
+          "plugins": [
+            [
+              [],
+              {
+                "loose": false,
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "async": false,
+                "asyncGenerators": false
+              }
+            ]
+          ]
+        },
+        {
+          "presets": [
+            {
+              "presets": [
+                {
+                  "presets": [
+                    {
+                      "plugins": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                      ]
+                    }
+                  ],
+                  "plugins": [
+                    null,
+                    null,
+                    null
+                  ]
+                }
+              ],
+              "plugins": [
+                null,
+                null
+              ]
+            }
+          ],
+          "plugins": [
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ]
+          ]
+        }
+      ],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "schema.js",
+      "sourceFileName": "schema.js",
+      "sourceRoot": "/app/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src",
+      "moduleIds": false,
+      "passPerPreset": true,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "schema"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.schema = undefined;\n\nvar _graphqlTools = require('graphql-tools');\n\nvar _resolvers = require('./resolvers');\n\nvar typeDefs = '\\ntype Channel {\\n  id: ID!                # \"!\" denotes a required field\\n  name: String\\n  messages: [Message]!\\n}\\n\\ninput MessageInput{\\n  channelId: ID!\\n  text: String\\n}\\n\\ntype Message {\\n  id: ID!\\n  text: String\\n}\\n\\n# This type specifies the entry points into our API\\ntype Query {\\n  channels: [Channel]    # \"[]\" means this is a list of channels\\n  channel(id: ID!): Channel\\n}\\n\\n# The mutation root type, used to define all mutations\\ntype Mutation {\\n  addChannel(name: String!): Channel\\n  addMessage(message: MessageInput!): Message\\n}\\n\\ntype Subscription {\\n  messageAdded(channelId: ID!): Message\\n}\\n';\n\nvar schema = (0, _graphqlTools.makeExecutableSchema)({ typeDefs: typeDefs, resolvers: _resolvers.resolvers });\nexports.schema = schema;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjaGVtYS5qcyJdLCJuYW1lcyI6WyJ0eXBlRGVmcyIsInNjaGVtYSIsInJlc29sdmVycyJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUtBOztBQUVBLElBQU1BLDRuQkFBTjs7QUFrQ0EsSUFBTUMsU0FBUyx3Q0FBcUIsRUFBRUQsa0JBQUYsRUFBWUUsK0JBQVosRUFBckIsQ0FBZjtRQUNTRCxNLEdBQUFBLE0iLCJmaWxlIjoic2NoZW1hLmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtcbiAgbWFrZUV4ZWN1dGFibGVTY2hlbWEsXG4gIGFkZE1vY2tGdW5jdGlvbnNUb1NjaGVtYSxcbn0gZnJvbSAnZ3JhcGhxbC10b29scyc7XG5cbmltcG9ydCB7IHJlc29sdmVycyB9IGZyb20gJy4vcmVzb2x2ZXJzJztcblxuY29uc3QgdHlwZURlZnMgPSBgXG50eXBlIENoYW5uZWwge1xuICBpZDogSUQhICAgICAgICAgICAgICAgICMgXCIhXCIgZGVub3RlcyBhIHJlcXVpcmVkIGZpZWxkXG4gIG5hbWU6IFN0cmluZ1xuICBtZXNzYWdlczogW01lc3NhZ2VdIVxufVxuXG5pbnB1dCBNZXNzYWdlSW5wdXR7XG4gIGNoYW5uZWxJZDogSUQhXG4gIHRleHQ6IFN0cmluZ1xufVxuXG50eXBlIE1lc3NhZ2Uge1xuICBpZDogSUQhXG4gIHRleHQ6IFN0cmluZ1xufVxuXG4jIFRoaXMgdHlwZSBzcGVjaWZpZXMgdGhlIGVudHJ5IHBvaW50cyBpbnRvIG91ciBBUElcbnR5cGUgUXVlcnkge1xuICBjaGFubmVsczogW0NoYW5uZWxdICAgICMgXCJbXVwiIG1lYW5zIHRoaXMgaXMgYSBsaXN0IG9mIGNoYW5uZWxzXG4gIGNoYW5uZWwoaWQ6IElEISk6IENoYW5uZWxcbn1cblxuIyBUaGUgbXV0YXRpb24gcm9vdCB0eXBlLCB1c2VkIHRvIGRlZmluZSBhbGwgbXV0YXRpb25zXG50eXBlIE11dGF0aW9uIHtcbiAgYWRkQ2hhbm5lbChuYW1lOiBTdHJpbmchKTogQ2hhbm5lbFxuICBhZGRNZXNzYWdlKG1lc3NhZ2U6IE1lc3NhZ2VJbnB1dCEpOiBNZXNzYWdlXG59XG5cbnR5cGUgU3Vic2NyaXB0aW9uIHtcbiAgbWVzc2FnZUFkZGVkKGNoYW5uZWxJZDogSUQhKTogTWVzc2FnZVxufVxuYDtcblxuY29uc3Qgc2NoZW1hID0gbWFrZUV4ZWN1dGFibGVTY2hlbWEoeyB0eXBlRGVmcywgcmVzb2x2ZXJzIH0pO1xuZXhwb3J0IHsgc2NoZW1hIH07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "schema.js"
+      ],
+      "names": [
+        "typeDefs",
+        "schema",
+        "resolvers"
+      ],
+      "mappings": ";;;;;;;AAAA;;AAKA;;AAEA,IAAMA,4nBAAN;;AAkCA,IAAMC,SAAS,wCAAqB,EAAED,kBAAF,EAAYE,+BAAZ,EAArB,CAAf;QACSD,M,GAAAA,M",
+      "file": "schema.js",
+      "sourceRoot": "/app/src",
+      "sourcesContent": [
+        "import {\n  makeExecutableSchema,\n  addMockFunctionsToSchema,\n} from 'graphql-tools';\n\nimport { resolvers } from './resolvers';\n\nconst typeDefs = `\ntype Channel {\n  id: ID!                # \"!\" denotes a required field\n  name: String\n  messages: [Message]!\n}\n\ninput MessageInput{\n  channelId: ID!\n  text: String\n}\n\ntype Message {\n  id: ID!\n  text: String\n}\n\n# This type specifies the entry points into our API\ntype Query {\n  channels: [Channel]    # \"[]\" means this is a list of channels\n  channel(id: ID!): Channel\n}\n\n# The mutation root type, used to define all mutations\ntype Mutation {\n  addChannel(name: String!): Channel\n  addMessage(message: MessageInput!): Message\n}\n\ntype Subscription {\n  messageAdded(channelId: ID!): Message\n}\n`;\n\nconst schema = makeExecutableSchema({ typeDefs, resolvers });\nexport { schema };\n"
+      ]
+    },
+    "mtime": 1529099579000
+  },
+  "{\"filename\":\"/app/src/resolvers.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[{\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]]},{\"presets\":[{\"presets\":[{\"presets\":[{\"plugins\":[null,null,null,null,null]}],\"plugins\":[null,null,null]}],\"plugins\":[null,null]}],\"plugins\":[[[],null],[[],null]]}],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":true,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "graphql-subscriptions",
+            "imported": [
+              "PubSub",
+              "withFilter"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "PubSub",
+                "local": "PubSub"
+              },
+              {
+                "kind": "named",
+                "imported": "withFilter",
+                "local": "withFilter"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "resolvers"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "resolvers",
+              "exported": "resolvers"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/resolvers.js",
+      "filenameRelative": "/app/src/resolvers.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [
+        {
+          "plugins": [
+            [
+              [],
+              {
+                "loose": false,
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "spec": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              {
+                "loose": false
+              }
+            ],
+            [
+              [],
+              {
+                "async": false,
+                "asyncGenerators": false
+              }
+            ]
+          ]
+        },
+        {
+          "presets": [
+            {
+              "presets": [
+                {
+                  "presets": [
+                    {
+                      "plugins": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                      ]
+                    }
+                  ],
+                  "plugins": [
+                    null,
+                    null,
+                    null
+                  ]
+                }
+              ],
+              "plugins": [
+                null,
+                null
+              ]
+            }
+          ],
+          "plugins": [
+            [
+              [],
+              null
+            ],
+            [
+              [],
+              null
+            ]
+          ]
+        }
+      ],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "resolvers.js",
+      "sourceFileName": "resolvers.js",
+      "sourceRoot": "/app/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src",
+      "moduleIds": false,
+      "passPerPreset": true,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "resolvers"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.resolvers = undefined;\n\nvar _graphqlSubscriptions = require('graphql-subscriptions');\n\nvar _channels = [{\n  id: '1',\n  name: 'soccer',\n  messages: [{\n    id: '1',\n    text: 'soccer is football'\n  }, {\n    id: '2',\n    text: 'hello soccer world cup'\n  }]\n}, {\n  id: '2',\n  name: 'baseball',\n  messages: [{\n    id: '3',\n    text: 'baseball is life'\n  }, {\n    id: '4',\n    text: 'hello baseball world series'\n  }]\n}];\nvar nextId = 3;\nvar nextMessageId = 5;\n\nvar pubsub = new _graphqlSubscriptions.PubSub();\n\nvar resolvers = exports.resolvers = {\n  Query: {\n    channels: function channels() {\n      return _channels;\n    },\n    channel: function channel(root, _ref) {\n      var id = _ref.id;\n\n      return _channels.find(function (channel) {\n        return channel.id === id;\n      });\n    }\n  },\n  Mutation: {\n    addChannel: function addChannel(root, args) {\n      var newChannel = { id: String(nextId++), messages: [], name: args.name };\n      _channels.push(newChannel);\n      return newChannel;\n    },\n    addMessage: function addMessage(root, _ref2) {\n      var message = _ref2.message;\n\n      var channel = _channels.find(function (channel) {\n        return channel.id === message.channelId;\n      });\n      if (!channel) throw new Error(\"Channel does not exist\");\n\n      var newMessage = { id: String(nextMessageId++), text: message.text };\n      channel.messages.push(newMessage);\n\n      pubsub.publish('messageAdded', { messageAdded: newMessage, channelId: message.channelId });\n\n      return newMessage;\n    }\n  },\n  Subscription: {\n    messageAdded: {\n      subscribe: (0, _graphqlSubscriptions.withFilter)(function () {\n        return pubsub.asyncIterator('messageAdded');\n      }, function (payload, variables) {\n        return payload.channelId === variables.channelId;\n      })\n    }\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc29sdmVycy5qcyJdLCJuYW1lcyI6WyJjaGFubmVscyIsImlkIiwibmFtZSIsIm1lc3NhZ2VzIiwidGV4dCIsIm5leHRJZCIsIm5leHRNZXNzYWdlSWQiLCJwdWJzdWIiLCJQdWJTdWIiLCJyZXNvbHZlcnMiLCJRdWVyeSIsImNoYW5uZWwiLCJyb290IiwiZmluZCIsIk11dGF0aW9uIiwiYWRkQ2hhbm5lbCIsImFyZ3MiLCJuZXdDaGFubmVsIiwiU3RyaW5nIiwicHVzaCIsImFkZE1lc3NhZ2UiLCJtZXNzYWdlIiwiY2hhbm5lbElkIiwiRXJyb3IiLCJuZXdNZXNzYWdlIiwicHVibGlzaCIsIm1lc3NhZ2VBZGRlZCIsIlN1YnNjcmlwdGlvbiIsInN1YnNjcmliZSIsImFzeW5jSXRlcmF0b3IiLCJwYXlsb2FkIiwidmFyaWFibGVzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7O0FBRUEsSUFBTUEsWUFBVyxDQUFDO0FBQ2hCQyxNQUFJLEdBRFk7QUFFaEJDLFFBQU0sUUFGVTtBQUdoQkMsWUFBVSxDQUFDO0FBQ1RGLFFBQUksR0FESztBQUVURyxVQUFNO0FBRkcsR0FBRCxFQUdQO0FBQ0RILFFBQUksR0FESDtBQUVERyxVQUFNO0FBRkwsR0FITztBQUhNLENBQUQsRUFVZDtBQUNESCxNQUFJLEdBREg7QUFFREMsUUFBTSxVQUZMO0FBR0RDLFlBQVUsQ0FBQztBQUNURixRQUFJLEdBREs7QUFFVEcsVUFBTTtBQUZHLEdBQUQsRUFHUDtBQUNESCxRQUFJLEdBREg7QUFFREcsVUFBTTtBQUZMLEdBSE87QUFIVCxDQVZjLENBQWpCO0FBcUJBLElBQUlDLFNBQVMsQ0FBYjtBQUNBLElBQUlDLGdCQUFnQixDQUFwQjs7QUFFQSxJQUFNQyxTQUFTLElBQUlDLDRCQUFKLEVBQWY7O0FBRU8sSUFBTUMsZ0NBQVk7QUFDdkJDLFNBQU87QUFDTFYsY0FBVSxvQkFBTTtBQUNkLGFBQU9BLFNBQVA7QUFDRCxLQUhJO0FBSUxXLGFBQVMsaUJBQUNDLElBQUQsUUFBa0I7QUFBQSxVQUFUWCxFQUFTLFFBQVRBLEVBQVM7O0FBQ3pCLGFBQU9ELFVBQVNhLElBQVQsQ0FBYztBQUFBLGVBQVdGLFFBQVFWLEVBQVIsS0FBZUEsRUFBMUI7QUFBQSxPQUFkLENBQVA7QUFDRDtBQU5JLEdBRGdCO0FBU3ZCYSxZQUFVO0FBQ1JDLGdCQUFZLG9CQUFDSCxJQUFELEVBQU9JLElBQVAsRUFBZ0I7QUFDMUIsVUFBTUMsYUFBYSxFQUFFaEIsSUFBSWlCLE9BQU9iLFFBQVAsQ0FBTixFQUF3QkYsVUFBVSxFQUFsQyxFQUFzQ0QsTUFBTWMsS0FBS2QsSUFBakQsRUFBbkI7QUFDQUYsZ0JBQVNtQixJQUFULENBQWNGLFVBQWQ7QUFDQSxhQUFPQSxVQUFQO0FBQ0QsS0FMTztBQU1SRyxnQkFBWSxvQkFBQ1IsSUFBRCxTQUF1QjtBQUFBLFVBQWRTLE9BQWMsU0FBZEEsT0FBYzs7QUFDakMsVUFBTVYsVUFBVVgsVUFBU2EsSUFBVCxDQUFjO0FBQUEsZUFBV0YsUUFBUVYsRUFBUixLQUFlb0IsUUFBUUMsU0FBbEM7QUFBQSxPQUFkLENBQWhCO0FBQ0EsVUFBRyxDQUFDWCxPQUFKLEVBQ0UsTUFBTSxJQUFJWSxLQUFKLENBQVUsd0JBQVYsQ0FBTjs7QUFFRixVQUFNQyxhQUFhLEVBQUV2QixJQUFJaUIsT0FBT1osZUFBUCxDQUFOLEVBQStCRixNQUFNaUIsUUFBUWpCLElBQTdDLEVBQW5CO0FBQ0FPLGNBQVFSLFFBQVIsQ0FBaUJnQixJQUFqQixDQUFzQkssVUFBdEI7O0FBRUFqQixhQUFPa0IsT0FBUCxDQUFlLGNBQWYsRUFBK0IsRUFBRUMsY0FBY0YsVUFBaEIsRUFBNEJGLFdBQVdELFFBQVFDLFNBQS9DLEVBQS9COztBQUVBLGFBQU9FLFVBQVA7QUFDRDtBQWpCTyxHQVRhO0FBNEJ2QkcsZ0JBQWM7QUFDWkQsa0JBQWM7QUFDWkUsaUJBQVcsc0NBQ1Q7QUFBQSxlQUFNckIsT0FBT3NCLGFBQVAsQ0FBcUIsY0FBckIsQ0FBTjtBQUFBLE9BRFMsRUFFVCxVQUFDQyxPQUFELEVBQVVDLFNBQVYsRUFBd0I7QUFDdEIsZUFBT0QsUUFBUVIsU0FBUixLQUFzQlMsVUFBVVQsU0FBdkM7QUFDRCxPQUpRO0FBREM7QUFERjtBQTVCUyxDQUFsQiIsImZpbGUiOiJyZXNvbHZlcnMuanMiLCJzb3VyY2VSb290IjoiL2FwcC9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQdWJTdWIsIHdpdGhGaWx0ZXIgfSBmcm9tICdncmFwaHFsLXN1YnNjcmlwdGlvbnMnO1xuXG5jb25zdCBjaGFubmVscyA9IFt7XG4gIGlkOiAnMScsXG4gIG5hbWU6ICdzb2NjZXInLFxuICBtZXNzYWdlczogW3tcbiAgICBpZDogJzEnLFxuICAgIHRleHQ6ICdzb2NjZXIgaXMgZm9vdGJhbGwnLFxuICB9LCB7XG4gICAgaWQ6ICcyJyxcbiAgICB0ZXh0OiAnaGVsbG8gc29jY2VyIHdvcmxkIGN1cCcsXG4gIH1dXG59LCB7XG4gIGlkOiAnMicsXG4gIG5hbWU6ICdiYXNlYmFsbCcsXG4gIG1lc3NhZ2VzOiBbe1xuICAgIGlkOiAnMycsXG4gICAgdGV4dDogJ2Jhc2ViYWxsIGlzIGxpZmUnLFxuICB9LCB7XG4gICAgaWQ6ICc0JyxcbiAgICB0ZXh0OiAnaGVsbG8gYmFzZWJhbGwgd29ybGQgc2VyaWVzJyxcbiAgfV1cbn1dO1xubGV0IG5leHRJZCA9IDM7XG5sZXQgbmV4dE1lc3NhZ2VJZCA9IDU7XG5cbmNvbnN0IHB1YnN1YiA9IG5ldyBQdWJTdWIoKTtcblxuZXhwb3J0IGNvbnN0IHJlc29sdmVycyA9IHtcbiAgUXVlcnk6IHtcbiAgICBjaGFubmVsczogKCkgPT4ge1xuICAgICAgcmV0dXJuIGNoYW5uZWxzO1xuICAgIH0sXG4gICAgY2hhbm5lbDogKHJvb3QsIHsgaWQgfSkgPT4ge1xuICAgICAgcmV0dXJuIGNoYW5uZWxzLmZpbmQoY2hhbm5lbCA9PiBjaGFubmVsLmlkID09PSBpZCk7XG4gICAgfSxcbiAgfSxcbiAgTXV0YXRpb246IHtcbiAgICBhZGRDaGFubmVsOiAocm9vdCwgYXJncykgPT4ge1xuICAgICAgY29uc3QgbmV3Q2hhbm5lbCA9IHsgaWQ6IFN0cmluZyhuZXh0SWQrKyksIG1lc3NhZ2VzOiBbXSwgbmFtZTogYXJncy5uYW1lIH07XG4gICAgICBjaGFubmVscy5wdXNoKG5ld0NoYW5uZWwpO1xuICAgICAgcmV0dXJuIG5ld0NoYW5uZWw7XG4gICAgfSxcbiAgICBhZGRNZXNzYWdlOiAocm9vdCwgeyBtZXNzYWdlIH0pID0+IHtcbiAgICAgIGNvbnN0IGNoYW5uZWwgPSBjaGFubmVscy5maW5kKGNoYW5uZWwgPT4gY2hhbm5lbC5pZCA9PT0gbWVzc2FnZS5jaGFubmVsSWQpO1xuICAgICAgaWYoIWNoYW5uZWwpXG4gICAgICAgIHRocm93IG5ldyBFcnJvcihcIkNoYW5uZWwgZG9lcyBub3QgZXhpc3RcIik7XG5cbiAgICAgIGNvbnN0IG5ld01lc3NhZ2UgPSB7IGlkOiBTdHJpbmcobmV4dE1lc3NhZ2VJZCsrKSwgdGV4dDogbWVzc2FnZS50ZXh0IH07XG4gICAgICBjaGFubmVsLm1lc3NhZ2VzLnB1c2gobmV3TWVzc2FnZSk7XG5cbiAgICAgIHB1YnN1Yi5wdWJsaXNoKCdtZXNzYWdlQWRkZWQnLCB7IG1lc3NhZ2VBZGRlZDogbmV3TWVzc2FnZSwgY2hhbm5lbElkOiBtZXNzYWdlLmNoYW5uZWxJZCB9KTtcblxuICAgICAgcmV0dXJuIG5ld01lc3NhZ2U7XG4gICAgfSxcbiAgfSxcbiAgU3Vic2NyaXB0aW9uOiB7XG4gICAgbWVzc2FnZUFkZGVkOiB7XG4gICAgICBzdWJzY3JpYmU6IHdpdGhGaWx0ZXIoXG4gICAgICAgICgpID0+IHB1YnN1Yi5hc3luY0l0ZXJhdG9yKCdtZXNzYWdlQWRkZWQnKSxcbiAgICAgICAgKHBheWxvYWQsIHZhcmlhYmxlcykgPT4ge1xuICAgICAgICAgIHJldHVybiBwYXlsb2FkLmNoYW5uZWxJZCA9PT0gdmFyaWFibGVzLmNoYW5uZWxJZDtcbiAgICAgICAgfVxuICAgICAgKVxuICAgIH1cbiAgfSxcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "resolvers.js"
+      ],
+      "names": [
+        "channels",
+        "id",
+        "name",
+        "messages",
+        "text",
+        "nextId",
+        "nextMessageId",
+        "pubsub",
+        "PubSub",
+        "resolvers",
+        "Query",
+        "channel",
+        "root",
+        "find",
+        "Mutation",
+        "addChannel",
+        "args",
+        "newChannel",
+        "String",
+        "push",
+        "addMessage",
+        "message",
+        "channelId",
+        "Error",
+        "newMessage",
+        "publish",
+        "messageAdded",
+        "Subscription",
+        "subscribe",
+        "asyncIterator",
+        "payload",
+        "variables"
+      ],
+      "mappings": ";;;;;;;AAAA;;AAEA,IAAMA,YAAW,CAAC;AAChBC,MAAI,GADY;AAEhBC,QAAM,QAFU;AAGhBC,YAAU,CAAC;AACTF,QAAI,GADK;AAETG,UAAM;AAFG,GAAD,EAGP;AACDH,QAAI,GADH;AAEDG,UAAM;AAFL,GAHO;AAHM,CAAD,EAUd;AACDH,MAAI,GADH;AAEDC,QAAM,UAFL;AAGDC,YAAU,CAAC;AACTF,QAAI,GADK;AAETG,UAAM;AAFG,GAAD,EAGP;AACDH,QAAI,GADH;AAEDG,UAAM;AAFL,GAHO;AAHT,CAVc,CAAjB;AAqBA,IAAIC,SAAS,CAAb;AACA,IAAIC,gBAAgB,CAApB;;AAEA,IAAMC,SAAS,IAAIC,4BAAJ,EAAf;;AAEO,IAAMC,gCAAY;AACvBC,SAAO;AACLV,cAAU,oBAAM;AACd,aAAOA,SAAP;AACD,KAHI;AAILW,aAAS,iBAACC,IAAD,QAAkB;AAAA,UAATX,EAAS,QAATA,EAAS;;AACzB,aAAOD,UAASa,IAAT,CAAc;AAAA,eAAWF,QAAQV,EAAR,KAAeA,EAA1B;AAAA,OAAd,CAAP;AACD;AANI,GADgB;AASvBa,YAAU;AACRC,gBAAY,oBAACH,IAAD,EAAOI,IAAP,EAAgB;AAC1B,UAAMC,aAAa,EAAEhB,IAAIiB,OAAOb,QAAP,CAAN,EAAwBF,UAAU,EAAlC,EAAsCD,MAAMc,KAAKd,IAAjD,EAAnB;AACAF,gBAASmB,IAAT,CAAcF,UAAd;AACA,aAAOA,UAAP;AACD,KALO;AAMRG,gBAAY,oBAACR,IAAD,SAAuB;AAAA,UAAdS,OAAc,SAAdA,OAAc;;AACjC,UAAMV,UAAUX,UAASa,IAAT,CAAc;AAAA,eAAWF,QAAQV,EAAR,KAAeoB,QAAQC,SAAlC;AAAA,OAAd,CAAhB;AACA,UAAG,CAACX,OAAJ,EACE,MAAM,IAAIY,KAAJ,CAAU,wBAAV,CAAN;;AAEF,UAAMC,aAAa,EAAEvB,IAAIiB,OAAOZ,eAAP,CAAN,EAA+BF,MAAMiB,QAAQjB,IAA7C,EAAnB;AACAO,cAAQR,QAAR,CAAiBgB,IAAjB,CAAsBK,UAAtB;;AAEAjB,aAAOkB,OAAP,CAAe,cAAf,EAA+B,EAAEC,cAAcF,UAAhB,EAA4BF,WAAWD,QAAQC,SAA/C,EAA/B;;AAEA,aAAOE,UAAP;AACD;AAjBO,GATa;AA4BvBG,gBAAc;AACZD,kBAAc;AACZE,iBAAW,sCACT;AAAA,eAAMrB,OAAOsB,aAAP,CAAqB,cAArB,CAAN;AAAA,OADS,EAET,UAACC,OAAD,EAAUC,SAAV,EAAwB;AACtB,eAAOD,QAAQR,SAAR,KAAsBS,UAAUT,SAAvC;AACD,OAJQ;AADC;AADF;AA5BS,CAAlB",
+      "file": "resolvers.js",
+      "sourceRoot": "/app/src",
+      "sourcesContent": [
+        "import { PubSub, withFilter } from 'graphql-subscriptions';\n\nconst channels = [{\n  id: '1',\n  name: 'soccer',\n  messages: [{\n    id: '1',\n    text: 'soccer is football',\n  }, {\n    id: '2',\n    text: 'hello soccer world cup',\n  }]\n}, {\n  id: '2',\n  name: 'baseball',\n  messages: [{\n    id: '3',\n    text: 'baseball is life',\n  }, {\n    id: '4',\n    text: 'hello baseball world series',\n  }]\n}];\nlet nextId = 3;\nlet nextMessageId = 5;\n\nconst pubsub = new PubSub();\n\nexport const resolvers = {\n  Query: {\n    channels: () => {\n      return channels;\n    },\n    channel: (root, { id }) => {\n      return channels.find(channel => channel.id === id);\n    },\n  },\n  Mutation: {\n    addChannel: (root, args) => {\n      const newChannel = { id: String(nextId++), messages: [], name: args.name };\n      channels.push(newChannel);\n      return newChannel;\n    },\n    addMessage: (root, { message }) => {\n      const channel = channels.find(channel => channel.id === message.channelId);\n      if(!channel)\n        throw new Error(\"Channel does not exist\");\n\n      const newMessage = { id: String(nextMessageId++), text: message.text };\n      channel.messages.push(newMessage);\n\n      pubsub.publish('messageAdded', { messageAdded: newMessage, channelId: message.channelId });\n\n      return newMessage;\n    },\n  },\n  Subscription: {\n    messageAdded: {\n      subscribe: withFilter(\n        () => pubsub.asyncIterator('messageAdded'),\n        (payload, variables) => {\n          return payload.channelId === variables.channelId;\n        }\n      )\n    }\n  },\n};\n"
+      ]
+    },
+    "mtime": 1529099579000
+  }
+}
